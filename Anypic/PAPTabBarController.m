@@ -21,7 +21,7 @@
     [super viewDidLoad];
 
     [[self tabBar] setBackgroundImage:[UIImage imageNamed:@"TabBar.png"]];
-    [[self tabBar] setSelectionIndicatorImage:[UIImage imageNamed:@"BackgroundTabBarItemSelected.png"]];
+    [[self tabBar] setSelectionIndicatorImage:[UIImage imageNamed:@"TabBarItemSelected.png"]];
     
     self.navController = [[UINavigationController alloc] init];
     [PAPUtility addBottomDropShadowToNavigationBarForNavigationController:self.navController];
