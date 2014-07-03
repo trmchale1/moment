@@ -5,13 +5,15 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D6DB27DC-BD92-461A-ABC2-546B13178FD2</string>
+	<string>B53BE7D7-10D7-42D1-A6E2-7C4EF01584BA</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Anypic</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5315F92E-3DAF-448D-9E3F-C9E27085E396</key>
 		<string>https://github.com/ParsePlatform/Anypic</string>
+		<key>6679839A-5F30-478B-A807-4478CF5EF8AF</key>
+		<string>https://github.com/trmchale1/moment.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Anypic-iOS/Anypic.xcodeproj/project.xcworkspace</string>
@@ -19,9 +21,11 @@
 	<dict>
 		<key>5315F92E-3DAF-448D-9E3F-C9E27085E396</key>
 		<string>../../..</string>
+		<key>6679839A-5F30-478B-A807-4478CF5EF8AF</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ParsePlatform/Anypic</string>
+	<string>https://github.com/trmchale1/moment.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -35,6 +39,14 @@
 			<string>5315F92E-3DAF-448D-9E3F-C9E27085E396</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Anypic</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6679839A-5F30-478B-A807-4478CF5EF8AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Anypic-iOS</string>
 		</dict>
 	</array>
 </dict>
