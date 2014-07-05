@@ -347,8 +347,8 @@
     [PAPUtility addBottomDropShadowToNavigationBarForNavigationController:emptyNavigationController];
     [PAPUtility addBottomDropShadowToNavigationBarForNavigationController:activityFeedNavigationController];
     
-    UITabBarItem *homeTabBarItem = [[UITabBarItem alloc] initWithTitle:@"Home" image:nil tag:0];
-    [homeTabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"IconHomeSelected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"IconHome.png"]];
+    UITabBarItem *homeTabBarItem = [[UITabBarItem alloc] initWithTitle:@"" image:nil tag:0];
+    [homeTabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"househome3.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"househome2.png"]];
     [homeTabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
                                             [UIColor colorWithRed:86.0f/255.0f green:55.0f/255.0f blue:42.0f/255.0f alpha:1.0f], UITextAttributeTextColor,
                                             nil] forState:UIControlStateNormal];
@@ -356,8 +356,8 @@
                                             [UIColor colorWithRed:129.0f/255.0f green:99.0f/255.0f blue:69.0f/255.0f alpha:1.0f], UITextAttributeTextColor,
                                             nil] forState:UIControlStateSelected];
     
-    UITabBarItem *activityFeedTabBarItem = [[UITabBarItem alloc] initWithTitle:@"Activity" image:nil tag:0];
-    [activityFeedTabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"IconTimelineSelected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"IconTimeline.png"]];
+    UITabBarItem *activityFeedTabBarItem = [[UITabBarItem alloc] initWithTitle:@"" image:nil tag:0];
+    [activityFeedTabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"buttonUsers3.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"buttonUsers3.png"]];
     [activityFeedTabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
                                                     [UIColor colorWithRed:86.0f/255.0f green:55.0f/255.0f blue:42.0f/255.0f alpha:1.0f], UITextAttributeTextColor,
                                                     nil] forState:UIControlStateNormal];
@@ -430,11 +430,11 @@
     [[UIButton appearanceWhenContainedIn:[UINavigationBar class], nil] setBackgroundImage:[UIImage imageNamed:@"ButtonNavigationBarSelected.png"] forState:UIControlStateHighlighted];
     [[UIButton appearanceWhenContainedIn:[UINavigationBar class], nil] setTitleColor:[UIColor colorWithRed:214.0f/255.0f green:210.0f/255.0f blue:197.0f/255.0f alpha:1.0f] forState:UIControlStateNormal];
     
-    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:[UIImage imageNamed:@"ButtonBack.png"]
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:[UIImage imageNamed:@"backButton.png"]
                                                       forState:UIControlStateNormal
                                                     barMetrics:UIBarMetricsDefault];
     
-    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:[UIImage imageNamed:@"ButtonBackSelected.png"]
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:[UIImage imageNamed:@"backButton.png"]
                                                       forState:UIControlStateSelected
                                                     barMetrics:UIBarMetricsDefault];
 

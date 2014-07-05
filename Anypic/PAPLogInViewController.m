@@ -12,7 +12,7 @@
 - (void)viewDidLoad {
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Default.png"]];
     
-    NSString *text = @"Sign up and start sharing your story with your friends.";
+    NSString *text = @"";
     CGSize textSize = [text sizeWithFont:[UIFont fontWithName:@"HelveticaNeue-Medium" size:18.0f] constrainedToSize:CGSizeMake( 255.0f, CGFLOAT_MAX) lineBreakMode:UILineBreakModeWordWrap];
     UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake( ([UIScreen mainScreen].bounds.size.width - textSize.width)/2.0f, 160.0f, textSize.width, textSize.height)];
     [textLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Medium" size:18.0f]];
