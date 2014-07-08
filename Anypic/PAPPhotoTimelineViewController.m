@@ -70,7 +70,7 @@
     [super viewDidLoad];
     
     UIView *texturedBackgroundView = [[UIView alloc] initWithFrame:self.view.bounds];
-    texturedBackgroundView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"BackgroundLeather.png"]];
+    texturedBackgroundView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
     self.tableView.backgroundView = texturedBackgroundView;
         
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidPublishPhoto:) name:PAPTabBarControllerDidFinishEditingPhotoNotification object:nil];

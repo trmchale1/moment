@@ -67,7 +67,7 @@ static NSString *const kPAPActivityTypeJoinedString = @"joined Anypic";
     [super viewDidLoad];
     
     UIView *texturedBackgroundView = [[UIView alloc] initWithFrame:self.view.bounds];
-    [texturedBackgroundView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"BackgroundLeather.png"]]];
+    [texturedBackgroundView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
     self.tableView.backgroundView = texturedBackgroundView;
 
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LogoNavigationBar.png"]];

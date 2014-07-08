@@ -25,7 +25,7 @@
 
         UIView *dropshadowView = [[UIView alloc] init];
         dropshadowView.backgroundColor = [UIColor whiteColor];
-        dropshadowView.frame = CGRectMake( 20.0f, -44.0f, 280.0f, 322.0f);
+        dropshadowView.frame = CGRectMake( 20.0f, -44.0f, 180.0f, 180.0f);
         [self.contentView addSubview:dropshadowView];
         
         CALayer *layer = dropshadowView.layer;
@@ -35,12 +35,12 @@
         layer.shadowOffset = CGSizeMake( 0.0f, 1.0f);
         layer.shouldRasterize = YES;
         
-        self.imageView.frame = CGRectMake( 20.0f, 0.0f, 280.0f, 280.0f);
+        self.imageView.frame = CGRectMake( 20.0f, 0.0f, 180.0f, 180.0f);
         self.imageView.backgroundColor = [UIColor blackColor];
         self.imageView.contentMode = UIViewContentModeScaleAspectFit;
         
         self.photoButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        self.photoButton.frame = CGRectMake( 20.0f, 0.0f, 280.0f, 280.0f);
+        self.photoButton.frame = CGRectMake( 20.0f, 0.0f, 180.0f, 180.0f);
         self.photoButton.backgroundColor = [UIColor clearColor];
         [self.contentView addSubview:self.photoButton];
         
@@ -55,8 +55,8 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    self.imageView.frame = CGRectMake( 20.0f, 0.0f, 280.0f, 280.0f);
-    self.photoButton.frame = CGRectMake( 20.0f, 0.0f, 280.0f, 280.0f);
+    self.imageView.frame = CGRectMake( 20.0f, 0.0f, 280.0f, 180.0f);
+    self.photoButton.frame = CGRectMake( 20.0f, 0.0f, 280.0f, 180.0f);
 }
 
 @end

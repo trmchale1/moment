@@ -72,7 +72,7 @@ static NSUInteger const kPAPCellPhotoNumLabelTag = 5;
     [super viewDidLoad];
     
     UIView *texturedBackgroundView = [[UIView alloc] initWithFrame:self.view.bounds];
-    [texturedBackgroundView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"BackgroundLeather.png"]]];
+    [texturedBackgroundView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
     self.tableView.backgroundView = texturedBackgroundView;
         
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"TitleFindFriends.png"]];
